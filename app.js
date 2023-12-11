@@ -8,16 +8,16 @@ for (let i = 0; i < arr.length; i++) {
     }
 console.log("Sab se chota number:", smallNum);
 
-// let arr1 = [12, 54, 87, 18, 10];
-// let sabSeBara1 = arr[0]; // Hamara assume kia hua sab se bara number
+let arr1 = [12, 54, 87, 18, 10];
+let sabSeBara1 = arr[0]; // Hamara assume kia hua sab se bara number
 
-// for (let i = 0; i < arr1.length; i++) {
-//     if (arr1[i] > sabSeBara1) {
-//         sabSeBara1 = arr1[i];
-//     }
-// }
+for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] > sabSeBara1) {
+        sabSeBara1 = arr1[i];
+    }
+}
 
-// console.log("Sab se bara number:", sabSeBara1);
+console.log("Sab se bara number:", sabSeBara1);
 
 
 
