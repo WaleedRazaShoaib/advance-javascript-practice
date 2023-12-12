@@ -107,7 +107,9 @@ else{
 // getValue
 // .then(res => console.log("res--->",res))
 // .catch(err =>console.log("err--->",err))
+ 
 
-// let opo = "waleed";
-// let imi = opo.slice(2,5)
-// console.log(imi)
+var nameFull = "Waleed Shoaib";
+
+ console.log(nameFull[2])
+ 
