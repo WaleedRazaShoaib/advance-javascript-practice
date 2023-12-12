@@ -110,6 +110,12 @@ else{
  
 
 var nameFull = "Waleed Shoaib";
-
  console.log(nameFull[2])
+
+
+let myBigarray = [1,2,3,,5,6,7,8,9];
+let latestArr = myBigarray.filter((val)=>{
+return val % 2 === 0
+})
+console.log(latestArr)
  
