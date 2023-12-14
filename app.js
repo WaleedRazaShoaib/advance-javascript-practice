@@ -1,46 +1,46 @@
-let arr = [12, 54, 87, 18, 10,2];
-let smallNum = arr[0]; 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < smallNum) {
-            smallNum = arr[i];
-        }
-    }
-console.log("Sab se chota number:", smallNum);
+// let arr = [12, 54, 87, 18, 10,2];
+// let smallNum = arr[0]; 
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < smallNum) {
+//             smallNum = arr[i];
+//         }
+//     }
+// console.log("Sab se chota number:", smallNum);
 
-let arr1 = [12, 54, 87, 18, 10];
-let sabSeBara1 = arr[0]; 
+// let arr1 = [12, 54, 87, 18, 10];
+// let sabSeBara1 = arr[0]; 
 
-for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] > sabSeBara1) {
-        sabSeBara1 = arr1[i];
-    }
-}
-console.log("Sab se bara number:", sabSeBara1);
-
-
-
-let array = [12,89,99,66,972,223,1]
-let assume = array[0];
-for(var i = 0; i < array.length; i++){
-    if(array[i] < assume ){
-        assume = array[i]
-    }
-}
-console.log(assume)
+// for (let i = 0; i < arr1.length; i++) {
+//     if (arr1[i] > sabSeBara1) {
+//         sabSeBara1 = arr1[i];
+//     }
+// }
+// console.log("Sab se bara number:", sabSeBara1);
 
 
-var word = prompt("enter your word");
-var check = "";
 
-for (var i = word.length -1 ;i >= 0; i--){
-  check += word[i] 
-}
-   if(word === check){
-    console.log(word + " is a palindrome word")
-}
-else{
-    console.log( word +" is not a palindrome word")
-}
+// let array = [12,89,99,66,972,223,1]
+// let assume = array[0];
+// for(var i = 0; i < array.length; i++){
+//     if(array[i] < assume ){
+//         assume = array[i]
+//     }
+// }
+// console.log(assume)
+
+
+// var word = prompt("enter your word");
+// var check = "";
+
+// for (var i = word.length -1 ;i >= 0; i--){
+//   check += word[i] 
+// }
+//    if(word === check){
+//     console.log(word + " is a palindrome word")
+// }
+// else{
+//     console.log( word +" is not a palindrome word")
+// }
 
 
 
@@ -107,15 +107,23 @@ else{
 // getValue
 // .then(res => console.log("res--->",res))
 // .catch(err =>console.log("err--->",err))
- 
-
-var nameFull = "Waleed Shoaib";
- console.log(nameFull[2])
 
 
-let myBigarray = [1,2,3,,5,6,7,8,9];
-let latestArr = myBigarray.filter((val)=>{
-return val % 2 === 0
-})
-console.log(latestArr)
- 
+// var nameFull = "Waleed Shoaib";
+//  console.log(nameFull[2])
+
+
+// let myBigarray = [1,2,3,,5,6,7,8,9];
+// let latestArr = myBigarray.filter((val)=>{
+// return val % 2 === 0
+// })
+// console.log(latestArr)
+
+
+let fruitName = [1,2,3,4];
+let sum = 0;
+let maps = fruitName.map((v) => {
+ sum = v + sum;
+    })
+
+console.log(sum)
