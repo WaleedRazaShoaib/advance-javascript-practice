@@ -120,10 +120,7 @@
 // console.log(latestArr)
 
 
-let fruitName = [1,2,3,4];
-let sum = 0;
-let maps = fruitName.map((v) => {
- sum = v + sum;
-    })
-
-console.log(sum)
+let Array12 = [1,2,3,5,7,8,9,9];
+let each = Array12.forEach ((element,val)=>  {
+    console.log(element,val)
+});
